@@ -1,13 +1,5 @@
 # Blendle bookmarklet
 
-Een bookmarklet om snel vanuit een paywall-artikel op bijvoorbeeld bijvoorbeeld www.nrc.nl naar hetzelfde artikel op Blendle te gaan. Andere kranten worden waarschijnlijk later toegevoegd (pull-requests welkom).
+Een bookmarklet om snel vanuit een paywall-artikel op bijvoorbeeld bijvoorbeeld www.nrc.nl naar hetzelfde artikel op Blendle te gaan. 
 
-## Comments
-- werkt nu alleen voor NRC en NRC next.
-- nog niet uigebreid getest.
-
-## License
-MIT
-
-
-
+Zie [hier](http://www.nrc.nl/next/van/2014/december/20/gebroken-harten-aan-beide-zijden-van-de-golven-1448196) voor meer info.
