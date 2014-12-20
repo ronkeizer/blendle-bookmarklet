@@ -1,3 +1,7 @@
+# adapted from: https://gist.github.com/tantalor/1259477
+# and: http://daringfireball.net/2007/03/javascript_bookmarklet_builder
+# ron keizer 2014
+
 use strict;
 use warnings;
 use URI::Escape qw(uri_escape_utf8);
