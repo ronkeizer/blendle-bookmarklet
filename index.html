@@ -8,6 +8,19 @@
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <style>
+    .button {
+      font: bold 11px Arial;
+      text-decoration: none;
+      background-color: #EEEEEE;
+      color: #333333;
+      padding: 2px 6px 2px 6px;
+      border-top: 1px solid #CCCCCC;
+      border-right: 1px solid #333333;
+      border-bottom: 1px solid #333333;
+      border-left: 1px solid #CCCCCC;
+    }
+    </style>
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -22,9 +35,6 @@
 
 
         <ul>
-
-          <li><a href="javascript:var inp=location.href.split(/\//);var j=inp[2].replace(/(www\.|\.nl|\.com)/g,"");var url;if(j==="nrc"){var v=inp[3];var vers="nrc";if(v==="next"){vers="nn"};var m=["januari","februari","maart","april","mei","juni","juli","augustus","september","oktober","november","december"];var dat=inp[5]+(m.indexOf(inp[6])+1)+inp[7];var art=inp.pop().split("-");var num=art.pop();url="https://blendle.nl/i/nrc-handelsblad/"+art.join("-")+"/bnl-"+vers+"-"+dat+"-"+num;location.href=url;};">blendle</a></li>
-
           <li><a href="https://github.com/ronkeizer/blendle-bookmarklet/zipball/master">Download <strong>ZIP File</strong></a></li>
           <li><a href="https://github.com/ronkeizer/blendle-bookmarklet/tarball/master">Download <strong>TAR Ball</strong></a></li>
           <li><a href="https://github.com/ronkeizer/blendle-bookmarklet">View On <strong>GitHub</strong></a></li>
@@ -37,7 +47,7 @@
 <p>Een bookmarklet om snel vanuit een paywall-artikel op bijvoorbeeld bijvoorbeeld www.nrc.nl naar hetzelfde artikel op Blendle te gaan. Andere kranten worden waarschijnlijk later toegevoegd (pull-requests welkom).</p>
 
 <h4>Comments</h4>
-<p>Sleep de link naar je bookmarks bar.</p>
+<p>Sleep <a class='button' href="javascript:var inp=location.href.split(/\//);var j=inp[2].replace(/(www\.|\.nl|\.com)/g,"");var url;if(j==="nrc"){var v=inp[3];var vers="nrc";if(v==="next"){vers="nn"};var m=["januari","februari","maart","april","mei","juni","juli","augustus","september","oktober","november","december"];var dat=inp[5]+(m.indexOf(inp[6])+1)+inp[7];var art=inp.pop().split("-");var num=art.pop();url="https://blendle.nl/i/nrc-handelsblad/"+art.join("-")+"/bnl-"+vers+"-"+dat+"-"+num;location.href=url;};">blendle</a> naar je bookmarks bar.</p>
 
 <h4>Comments</h4>
 <p>
