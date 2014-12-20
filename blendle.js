@@ -11,4 +11,6 @@ if (j === "nrc") {
     var num = art.pop();
     url = "https://blendle.nl/i/nrc-handelsblad/"+art.join("-")+"/bnl-"+vers+"-"+dat+"-"+num;
     location.href=url;
+} else {
+    alert("Helaas... deze krant wordt niet ondersteund op dit moment.");
 };
