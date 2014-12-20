@@ -36,15 +36,18 @@
         <h3>
 <a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Blendle bookmarklet</h3>
 
-<p>Een bookmarklet om snel vanuit een paywall-artikel op bijvoorbeeld bijvoorbeeld www.nrc.nl naar hetzelfde artikel op Blendle te gaan. Andere kranten worden waarschijnlijk later toegevoegd (pull-requests welkom).</p>
+<p>Een bookmarklet om snel vanuit een paywall-artikel op bijvoorbeeld bijvoorbeeld www.nrc.nl naar hetzelfde artikel op Blendle te gaan. </p>
 
 <h4>Installatie</h4>
 <p>Sleep <a class='button' href="javascript:var inp=location.href.split(/\//);var j=inp[2].replace(/(www\.|\.nl|\.com)/g,"");var url;if(j==="nrc"){var v=inp[3];var vers="nrc";if(v==="next"){vers="nn"};var m=["januari","februari","maart","april","mei","juni","juli","augustus","september","oktober","november","december"];var dat=inp[5]+(m.indexOf(inp[6])+1)+inp[7];var art=inp.pop().split("-");var num=art.pop();url="https://blendle.nl/i/nrc-handelsblad/"+art.join("-")+"/bnl-"+vers+"-"+dat+"-"+num;location.href=url;};">blendle</a> naar bookmarks bar in browser.</p>
 
+<h4>Proberen?</h4>
+Bijvoorbeeld <a href="http://www.nrc.nl/next/van/2014/december/20/gebroken-harten-aan-beide-zijden-van-de-golven-1448196">dit artikel</a>.
+
 <h4>Comments</h4>
 <ul>
-<li> werkt nu alleen voor NRC en NRC next.
-<li> nog niet uigebreid getest.
+<li> werkt nu alleen voor NRC en NRC next, andere kranten mogelijk later.
+<li> niet uigebreid getest.
 </p>
 
       </section>
