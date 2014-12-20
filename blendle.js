@@ -1,4 +1,3 @@
-javascript:
 var inp = location.href.split(/\//);
 var j = inp[2].replace(/(www\.|\.nl|\.com)/g, "");
 var url;
