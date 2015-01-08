@@ -1,7 +1,7 @@
 var inp = location.href.split(/\//);
 var j = inp[2].replace(/(www\.|\.nl|\.com)/g, "");
 var url;
-function add_z(n) { return n<10? '0'+n:''+n; }
+function add_z(n) { n = Number(n); return n<10? '0'+n:''+n; }
 if (j === "nrc") {
     var v = inp[3];
     var vers = "nrc";
