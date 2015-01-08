@@ -39,7 +39,7 @@
 <p>Een bookmarklet om snel vanuit een paywall-artikel op bijvoorbeeld bijvoorbeeld www.nrc.nl naar hetzelfde artikel op Blendle te gaan.</p>
 
 <h4>Installatie</h4>
-<p>Sleep <a class='button' href='javascript:var%20inp%20%3D%20location.href.split%28%2F%5C%2F%2F%29%3Bvar%20j%20%3D%20inp%5B2%5D.replace%28%2F%28www%5C.%7C%5C.nl%7C%5C.com%29%2Fg%2C%20%22%22%29%3Bvar%20url%3Bif%20%28j%20%3D%3D%3D%20%22nrc%22%29%20%7Bvar%20v%20%3D%20inp%5B3%5D%3Bvar%20vers%20%3D%20%22nrc%22%3Bif%20%28v%20%3D%3D%3D%20%22next%22%29%20%7B%20vers%20%3D%20%22nn%22%7D%3Bvar%20m%20%3D%20%5B%22januari%22%2C%20%22februari%22%2C%20%22maart%22%2C%20%22april%22%2C%20%22mei%22%2C%20%22juni%22%2C%20%22juli%22%2C%20%22augustus%22%2C%20%22september%22%2C%20%22oktober%22%2C%20%22november%22%2C%20%22december%22%5D%3Bvar%20dat%20%3D%20inp%5B5%5D%2B%28m.indexOf%28inp%5B6%5D%29%2B1%29%2Binp%5B7%5D%3Bvar%20art%20%3D%20inp.pop%28%29.split%28%22-%22%29%3Bvar%20num%20%3D%20art.pop%28%29%3Burl%20%3D%20%22https%3A%2F%2Fblendle.nl%2Fi%2Fnrc-handelsblad%2F%22%2Bart.join%28%22-%22%29%2B%22%2Fbnl-%22%2Bvers%2B%22-%22%2Bdat%2B%22-%22%2Bnum%3Blocation.href%3Durl%3B%7D%20else%20%7Balert%28%22Helaas...%20deze%20krant%20wordt%20niet%20ondersteund%20op%20dit%20moment.%22%29%3B%7D%3B'>blendle</a> naar bookmarks bar in browser.</p>
+<p>Sleep <a class='button' href='javascript:var%20inp%20%3D%20location.href.split%28%2F%5C%2F%2F%29%3Bvar%20j%20%3D%20inp%5B2%5D.replace%28%2F%28www%5C.%7C%5C.nl%7C%5C.com%29%2Fg%2C%20%22%22%29%3Bvar%20url%3Bfunction%20add_z%28n%29%20%7B%20return%20n%3C10%3F%20%270%27%2Bn%3A%27%27%2Bn%3B%20%7Dif%20%28j%20%3D%3D%3D%20%22nrc%22%29%20%7Bvar%20v%20%3D%20inp%5B3%5D%3Bvar%20vers%20%3D%20%22nrc%22%3Bif%20%28v%20%3D%3D%3D%20%22next%22%29%20%7B%20vers%20%3D%20%22nn%22%7D%3Bvar%20m%20%3D%20%5B%22januari%22%2C%20%22februari%22%2C%20%22maart%22%2C%20%22april%22%2C%20%22mei%22%2C%20%22juni%22%2C%20%22juli%22%2C%20%22augustus%22%2C%20%22september%22%2C%20%22oktober%22%2C%20%22november%22%2C%20%22december%22%5D%3Bvar%20dat%20%3D%20inp%5B5%5D%2Badd_z%28%28m.indexOf%28inp%5B6%5D%29%2B1%29%29%2Badd_z%28inp%5B7%5D%29%3Bvar%20art%20%3D%20inp.pop%28%29.split%28%22-%22%29%3Bvar%20num%20%3D%20art.pop%28%29%3Burl%20%3D%20%22https%3A%2F%2Fblendle.nl%2Fi%2Fnrc-handelsblad%2F%22%2Bart.join%28%22-%22%29%2B%22%2Fbnl-%22%2Bvers%2B%22-%22%2Bdat%2B%22-%22%2Bnum%3Blocation.href%3Durl%3B%7D%20else%20%7Balert%28%22Helaas...%20deze%20krant%20wordt%20niet%20ondersteund%20op%20dit%20moment.%22%29%3B%7D%3B'>blendle</a> naar bookmarks bar in browser.</p>
 
 <h4>Proberen?</h4>
 <p>
@@ -60,6 +60,6 @@ Bijvoorbeeld <a href="http://www.nrc.nl/next/van/2014/december/20/gebroken-harte
       </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
-    
+
   </body>
 </html>
