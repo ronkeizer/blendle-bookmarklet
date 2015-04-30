@@ -1,5 +1,5 @@
 var inp = location.href.split(/\//);
-var j = inp[2].replace(/(www\.|\.nl|\.com)/g, "");
+var j = inp[2].replace(/(www\.|blogs\.|\.nl|\.com)/g, "");
 var url;
 function add_z(n) { n = Number(n); return n<10? '0'+n:''+n; }
 var f = false;
