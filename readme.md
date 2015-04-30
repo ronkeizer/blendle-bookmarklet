@@ -1,5 +1,5 @@
 # Blendle bookmarklet
 
-Een bookmarklet om snel vanuit een paywall-artikel op bijvoorbeeld bijvoorbeeld www.nrc.nl naar hetzelfde artikel op Blendle te gaan. 
+A bookmarklet to take you from a newspaper or magazine's paywall to the same article on Blendle.
 
-Zie [hier](http://ronkeizer.github.io/blendle-bookmarklet/) voor meer info.
+See [here](http://ronkeizer.github.io/blendle-bookmarklet/) for more info.
